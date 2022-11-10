@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>EduGram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"> </a>
+             <div class="nav-links" id="navLinks">   
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+            <h1>Our Courses</h1>
+
+    </section>
+
+    <!-- -----courses------ -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>A globally recognised degree from UOW is your passport to a world of opportunity. As a comprehensive teaching and research university, we offer more than 340 courses across a range of study levels and disciplines. The types of courses we offer are listed below.
+
+        </p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Admission to this course is based on marks obtained for the SSLC (Class 10th), awarded after successful completion of five years of primary school, followed by five years of secondary school. The Indian education system follows a 10+2+3 (4 or 5) pattern, so that a bachelor's degree requires a minimum of 10 years of primary and secondary schooling, plus two years of Higher Secondary Education in Senior Secondary Schools </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>A bachelor's degree or baccalaureate is an undergraduate academic degree awarded by colleges and universities(universities upon completion of a course of study lasting three to six years) upon completion of a course of study lasting three to six years (depending on institution and academic discipline). The two most common bachelor's degrees are the Bachelor of Arts (BA) and the Bachelor of Science (BS or BSc). </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Postgraduate education (A number of universities also visit Concord each year) involves learning and studying for academic or professional degrees, academic or professional certificates, academic or professional diplomas, or other qualifications for which a first or bachelor's degree generally is required, and it is normally considered to be part of higher education.</p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- ------facilities----- -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The University offers a range of services and facilities for students, staff and community use.</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.JPG" alt="">
+                <h3>World Class Library</h3>
+                <p><p>Access to information is a vital key in developing the individuals potentiality. RGIT has provided a central library consisting more than 10,000 volumes of books and adequate number of journals. All the latest editions of books both for reference and text are available in this library. The journals of both National and International, related to all engineering subjects are also subscribed.</p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="images/playground.jpg" alt="">
+                <h3>Finest Playground</h3>
+                <p>The students have all the facilities for games and sports. Adequate infrastructure are provided for indoor and outdoor games and extra-curricular activities. A canteen with both vegetarian and non-vegetarian food is also available in the college campus. The college building has made more provisions for the expansion.</p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="images/cafteria.jpg" alt="">
+                <h3>Clean and Healthy Food</h3>
+                <p>There's no such thing as automated food delivery. It takes the best, the brightest and the most caring people to deliver Canteen's delicious food, superior service and innovative dining solutions.
+
+                    FOOD STYLES
+                    Vegetarian
+                    Non-Vegetarian
+                    North-Indian
+                    South-Indian</p>
+            </div>
+        </div>
+    
+    
+    </section>
+    
+
+
+<!-- ----- footer ----- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Eduford is young, dynamic and innovative, and has become a benchmark for India’s new generation of universities. <br>
+
+            The quality of our teaching and research features prominently in national and international rankings, <br> and we’re proud to be among the top one per cent of universities in the world.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Amal P Joseph</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>

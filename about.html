@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>EduGram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"> </a>
+             <div class="nav-links" id="navLinks">   
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+            <h1>About Us</h1>
+
+    </section>
+
+    <!-- -----about us------ -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the India's Largest University</h1>
+                <p>
+                    Eduford was founded in 1949 after WW2 by Mr Paul Oertel and Miss Monica Carr-Taylor, just outside Hastings in Sussex, as a small privately-owned language school.  It was at its heart, a response to the hatred and bitterness of war by using language teaching and personal warmth to break down barriers and misunderstandings between peoples.  The college soon moved to larger and more conducive premises at Tunbridge Wells in Kent and expanded to offer A Levels. The word Eduford means ‘harmony’ and the first generation of students remember a family friendly atmosphere in which the joint Principals worked tirelessly for the welfare and academic success of their students. <br><br>
+
+The college continued to grow slowly and in 1969 upon the retirement of the founder Principals, the college was bought by Mr Frank Bell who had founded the Bell School of Languages a number of years earlier. In 1973 the college moved again to its present site at Acton Burnell and a major programme of expansion began. Student numbers rose from the 90 students who came to Acton Burnell in 1973, to 200 by the 1980s.  The expansion of the College at this time enabled improvements to the facilities including the provision of a library, a gymnasium (now the current Library), engineering workshop and science laboratories. <br><br>
+
+In 1977 Eduford accepted girls for the first time, although they were taught at a separate site, in part of the nearby Attingham Park stately home (now run by the National Trust). By the early 1980s the girls were integrated on the site at Acton Burnell. <br><br>
+
+
+                </p>
+                <a href="course.html" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/main-qimg-8a658f9e159d9ccd269a3753b4ccde78-c.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+<!-- ----- footer ----- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Registered in India No 1503040 Registered Charity No 326279 © Copyright 2022 Concord College
+
+            <br> Iusto, expedita eius ullam repudiandae labore quae enim odio tenetur, in, obcaecati neque error repellat.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Amal P Joseph</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        } 
+    </script>
+</body>
+</html>
